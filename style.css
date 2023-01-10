@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container .gridDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: solid, black 100px;
+
+}
