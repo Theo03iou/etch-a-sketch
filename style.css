@@ -4,19 +4,33 @@
 }
 
 #container {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 800px;
-    margin: 130px 0 150px 480px;
+    margin: 130px 0 150px 480px; */
+    margin-top: 50px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: 5px solid white;
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+    background-color: gray;
+    box-shadow: 10px 10px;
 }
 
 .gridDiv {
-    margin: 10px;
-    justify-content: space-around;
-    background-color: red;
-    height: 170px;
-    width: 100px;
-    border: solid, black 100px;
-    flex: 1 0 21%;
+    background-color: white;
+    border: 1px solid black;
+    }
+
+
+/* .gridDiv:hover {
+    background-color: black;
+} */
+
+.coloured {
+    background-color: blue;
 }
