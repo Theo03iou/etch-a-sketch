@@ -3,13 +3,20 @@
     padding: 0;
 }
 
-#container .gridDiv {
+#container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 130px 0 150px 480px;
+}
+
+.gridDiv {
+    margin: 10px;
+    justify-content: space-around;
     background-color: red;
-    height: 100px;
+    height: 170px;
     width: 100px;
     border: solid, black 100px;
-
+    flex: 1 0 21%;
 }
