@@ -3,12 +3,16 @@
     padding: 0;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 125, 125);
+    margin-top: 30px;
+}
+
 #container {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin: 130px 0 150px 480px; */
     margin-top: 50px;
     display: inline-grid;
     grid-template-columns: repeat(16, 2fr);
@@ -24,7 +28,7 @@
 .gridDiv {
     background-color: white;
     border: 1px solid black;
-    }
+}
 
 
 /* .gridDiv:hover {
@@ -32,5 +36,5 @@
 } */
 
 .coloured {
-    background-color: blue;
+    background-color: red;
 }

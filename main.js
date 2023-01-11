@@ -4,7 +4,7 @@ const div = document.createElement('div'); // Creates an individual div.
 div.setAttribute("class", "gridDiv") // Sets the class of gridDiv to the JS generated div.
 let gridSize = prompt("enter the size of the array")
 
-for (let i = 0; i <= (gridSize * 2); i++) { // Creates 16 divs
+for (let i = 1; i <= (gridSize); i++) { // Creates 16 divs
     divContainer.appendChild(div.cloneNode(true));
 }
 
@@ -18,7 +18,7 @@ const gridDiv = document.querySelectorAll(".gridDiv");
 
   gridDiv.forEach((div) => {
     div.addEventListener('mouseover', (e) => {
-      e.target.style.background = 'blue';
+      e.target.style.background = 'red';
     });
   });
 
