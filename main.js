@@ -22,12 +22,6 @@ const gridDiv = document.querySelectorAll(".gridDiv");
     });
   });
 
-
-
-
-
-
-
 // gridDiv.addEventListener("mouseover", addColour);
 
 // divContainer.addEventListener("mouseover", addColour);
